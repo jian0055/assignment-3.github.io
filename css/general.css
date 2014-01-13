@@ -1,0 +1,275 @@
+@charset "UTF-8";
+/* Responsive Setup */
+
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
+
+html{
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-o-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+/* CSS */
+
+html, body{
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+
+img{
+	width: 100%;
+}
+
+.hide-text {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+/* Navigation Styles */
+
+.nav-btn,
+.nav-btn:link,
+.nav-btn:visited{
+	display: block;
+	height: 40px;
+	position: fixed;
+	top: 10px;	
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	font-size: 23px;
+	color: #000;
+}
+
+h3 {
+	text-align:center;
+	
+}
+	
+	
+	
+	/* background-color || background-image || background-repeat || background-position*/
+
+
+.nav-btn:hover,
+.nav-btn:focus,
+.nav-btn:active{
+	background-color: #CCC;
+}
+
+.nav a, 
+.nav a:link,
+.nav a:visited{
+	display: block;
+	padding: 1rem;
+	text-align:center;
+	color: #fff;
+	text-decoration: none;
+	background-color: #999;
+	border-top: 1px solid #fff;
+	/* border-width || border-style || border-color */
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active{
+	background-color: #333;
+}
+
+	/* Toggle Nav*/
+
+	.nav-top{
+		display: none;
+	}
+
+	.nav-top[data-state="expanded"]{
+		display: block;
+	}
+	
+
+.box {
+	background-color: #FFF;
+	padding: 5% 5%;
+	margin-bottom: 1.5rem;
+	font-family: "MS Serif", "New York", serif;
+	font-size: 20px;
+	color: #666;
+	text-align:center;
+	line-height: 30px;
+	border-style:solid;
+	border-bottom-width:2px;
+}
+
+
+.billboard {
+	/* background-color: #CCC; */
+	background-color: #CCC;
+	background-image:url(../images/enterprise.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 30rem;
+	/*box-shadow: 8px 14px 10px 0 rgba(0,0,0,.5);*/
+	
+}
+
+.billboard h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 3rem;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: #999;
+	position: relative;
+	top: 35%;
+	left: auto;
+	padding: 2rem;
+}
+
+.billboard p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+	text-align: center;
+	background-color: #999;
+	position: relative;
+		
+}
+
+
+
+.social li a,
+.social li a:link,
+.social li a:visited{
+	display: inline-block;
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin-right: 1rem;
+	text-align:center;
+	padding-top: 0.8125rem;
+
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+
+	color: #fff;	
+	/*background-color: #222;*/
+
+	-webkit-box-shadow: inset 0px 0px 0px 40px #222;
+	-moz-box-shadow: inset 0px 0px 0px 40px #222;
+	-ms-box-shadow: inset 0px 0px 0px 40px #222;
+	-o-box-shadow: inset 0px 0px 0px 40px #222;
+	box-shadow: inset 0px 0px 0px 40px #222;
+
+}
+
+.social li a:hover,
+.social li a:focus,
+.social li a:active{
+	-webkit-box-shadow: inset 0px 0px 0px 3px #222;
+	-moz-box-shadow: inset 0px 0px 0px 3px #222;
+	-ms-box-shadow: inset 0px 0px 0px 3px #222;
+	-o-box-shadow: inset 0px 0px 0px 3px #222;
+	box-shadow: inset 0px 0px 0px 3px #222;
+	color: #222;
+}
+
+section{
+	margin: 3rem 4rem 15rem 30%;
+	position: relative;
+	
+}
+
+.hide-text {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+}
+
+.ease-all{
+	-webkit-transition: all 350ms ease-in-out;
+	-moz-transition: all 350ms ease-in-out;
+	-ms-transition: all 350ms ease-in-out;
+	-o-transition: all 350ms ease-in-out;
+	transition: all 350ms ease-in-out;
+}
+
+map{
+	text-align: center;
+}
+
+return{
+	text-align:center;
+}
+
+.bottom {
+	background-color: #CCC;
+	margin-left:0.5rem;
+	height: 6rem;
+	left: 0.5rem;
+	text-align: center;
+	padding-top: 1.5rem;
+}
+
+.hours-list li{
+	text-align:center;
+}
+
+.hours-list li{
+	margin: 1em 0;
+	line-height: 1.3;
+}
+
+.hours-list dt{
+	font-weight: bold;
+}
+
+.hours-list dd:last-child{
+	color: #666;
+	font-style: italic;
+	font-size: 0.875rem;
+}
+
+h1, 
+.main,
+.copyright{
+	width: 90%;
+	margin: 1rem auto;
+}
+
+.box2 {
+	margin-left: 15%;
+	width: 15rem;
+	height: 15rem;
+	padding: 2rem;
+	font-family: sans-serif;
+	color: rgba(0, 0, 0, 0.5);
+	
+	background-color: #ccc;
+	border: 1rem solid #666;
+
+	text-align: center;
+	
+	
+	
+	
+	
+	
+	
